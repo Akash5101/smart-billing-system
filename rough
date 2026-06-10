@@ -1,20 +1,3 @@
-# See changed files
-git status
-
-# See commit history
-git log --oneline
-
-# Upload code
-git push
-
-# Download latest code
-git pull
-
-# Check connected repository
-git remote -v
-
-
-
 git add .
-git commit -m "your message"
+git commit -m "update git"
 git push 
