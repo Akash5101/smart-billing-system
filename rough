@@ -1,0 +1,14 @@
+# See changed files
+git status
+
+# See commit history
+git log --oneline
+
+# Upload code
+git push
+
+# Download latest code
+git pull
+
+# Check connected repository
+git remote -v
