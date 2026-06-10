@@ -1,0 +1,7 @@
+git add .
+git commit -m "update git"
+git push 
+
+
+//to use mysql
+mysql -u root
