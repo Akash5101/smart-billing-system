@@ -13,6 +13,9 @@ app.use(cors());
 app.use(express.json());
 
 // Routes
+const billRoutes = require("./routes/billRoutes");
+app.use("/api/bills", billRoutes);
+
 const productRoutes = require("./routes/productRoutes");
 app.use("/api/products", productRoutes);
 

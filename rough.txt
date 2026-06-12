@@ -3,5 +3,13 @@ git commit -m "update git"
 git push 
 
 
-//to use mysql
-mysql -u root
+
+mysql -u root            //to use mysql
+
+SHOW DATABASES;          //to view database
+USE billing_system;      //to use billing_system in DB
+SHOW TABLES;             //to view whats inside billing_system
+SELECT * FROM products;  //to vies all the products
+
+SELECT * FROM products WHERE category = 'Topwear';      // helps to get the product seperately
+SELECT * FROM products WHERE name = 'Hoodie';
