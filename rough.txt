@@ -13,3 +13,9 @@ SELECT * FROM products;  //to vies all the products
 
 SELECT * FROM products WHERE category = 'Topwear';      // helps to get the product seperately
 SELECT * FROM products WHERE name = 'Hoodie';
+
+
+
+UPDATE products
+SET stock = 5
+WHERE id = 3;

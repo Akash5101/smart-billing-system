@@ -13,6 +13,9 @@ app.use(cors());
 app.use(express.json());
 
 // Routes
+const dashboardRoutes =require("./routes/dashboardRoutes");
+app.use("/api/dashboard", dashboardRoutes);
+
 const billRoutes = require("./routes/billRoutes");
 app.use("/api/bills", billRoutes);
 
