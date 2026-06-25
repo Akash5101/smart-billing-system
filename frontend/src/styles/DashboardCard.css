@@ -1,0 +1,36 @@
+.dashboard-card {
+    background: white;
+    border-radius: 14px;
+    padding: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,.08);
+    transition: .3s;
+}
+
+.dashboard-card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 15px 30px rgba(0,0,0,.15);
+}
+
+.card-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.card-header h4{
+    color:#666;
+    font-size:15px;
+    font-weight:600;
+    margin:0;
+}
+
+.card-icon{
+    font-size:28px;
+}
+
+.card-value{
+    margin-top:20px;
+    font-size:32px;
+    font-weight:bold;
+    color:#222;
+}

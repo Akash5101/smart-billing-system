@@ -1,8 +1,7 @@
 git add .
 git commit -m "update git"
 git push 
-
-
+ 
 
 mysql -u root            //to use mysql
 

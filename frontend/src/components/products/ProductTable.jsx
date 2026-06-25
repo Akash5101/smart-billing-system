@@ -1,3 +1,5 @@
+
+
 function ProductTable({ products }) {
   return (
     <table border="1" cellPadding="10">

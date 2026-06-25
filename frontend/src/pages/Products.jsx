@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
-import ProductTable from "../components/ProductTable";
+import ProductTable from "../components/products/ProductTable";
 
 function Products() {
   const [products, setProducts] = useState([]);

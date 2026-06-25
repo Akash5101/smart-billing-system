@@ -112,6 +112,7 @@ const getTopProducts = async (req, res) => {
   }
 };
 
+
 module.exports = {
   getSummary,
   getRecentBills,
